@@ -1,0 +1,137 @@
+/*
+Theme Name:    printf-theme
+Theme URI:      http://example.com/
+Description:    Child theme for the Twenty Eleven theme 
+Author:         Your name here
+Author URI:     http://example.com/about/
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+@import url("../twentyeleven/style.css");
+#container {
+  clear: both;
+}
+
+.regs {
+	width: 42%; 
+	float: left; 
+	padding: 4%;
+	list-style: none;
+}
+
+.breaks img {
+	width: 100%;
+	text-align:center;
+}
+
+.tops {
+	width: 90%; 
+	float: none; 
+	padding: 4%;
+}
+
+.breaks {
+	width: 90%; 
+	float: none; 
+	padding: 4%;
+}
+
+#timestamp {
+	font-size: 12px;
+}
+
+/*Carousel*/
+ #featured{ 
+	width:100%; 
+	/* padding-right:250px; */
+	position:relative; 
+	border:5px solid #ccc; 
+	height:250px; 
+	background:#fff;
+}
+#featured img {
+	max-height: 95%;
+	max-width: 100%;
+	text-align:center;
+	font-style:
+}
+#featured ul.ui-tabs-nav{ 
+	position:absolute; 
+	top:0; left:65%; 
+	list-style:none; 
+	padding:0; margin:0; 
+	width:35%; 
+}
+#featured ul.ui-tabs-nav li{ 
+	padding:1px 0; padding-left:12px;  
+	font-size:12px; 
+	color:#666; 
+}
+#featured ul.ui-tabs-nav li img{ 
+	float:left; margin:2px 5px; 
+	background:#fff; 
+	padding:2px; 
+	border:1px solid #eee;
+}
+#featured ul.ui-tabs-nav li span{ 
+	font-size:11px; font-family:Verdana; 
+	line-height:14px; 
+}
+#featured li.ui-tabs-nav-item a{ 
+	display:block; 
+	min-height:25%;
+	color:#333;  background:#fff; 
+	line-height: 16px;
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+#featured li.ui-tabs-nav-item a:hover{ 
+	background:#f2f2f2; 
+}
+#featured li.ui-tabs-selected{ 
+	background:url('images/selected-item.gif') top left no-repeat;  
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a{ 
+	background:#ccc; 
+}
+#featured .ui-tabs-panel{ 
+	width:65%; height:100%; 
+	background:#999; position:relative;
+}
+#featured .ui-tabs-panel .info{ 
+	position:absolute; 
+	top:75%; left:0; 
+	height:25%; 
+	background: url('images/transparent-bg.png'); 
+}
+.info {
+	width: 100%;
+	background: #000;
+	-moz-opacity: 0.70;
+	opacity: 0.70;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=70);
+
+}
+#featured .info h2{ 
+	font-size:18px; font-family:Georgia, serif; 
+	color:#fff; padding:5px; margin:0;
+	overflow:hidden; 
+}
+#featured .info p{ 
+	margin:0 5px; 
+	font-family:Verdana; font-size:11px; 
+	/*line-height:15px;*/ color:#f0f0f0;
+	overflow: hidden;
+}
+#featured .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+}
+#featured .info a:hover{ 
+	text-decoration:underline; 
+}
+#featured .ui-tabs-hide{ 
+	display:none; 
+}
+            
